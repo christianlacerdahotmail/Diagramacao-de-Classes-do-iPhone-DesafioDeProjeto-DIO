@@ -1,2 +1,2 @@
-public class Navegador {
+public class Navegador extends NavegadorAbstrata {
 }
