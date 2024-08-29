@@ -9,7 +9,7 @@ public abstract class ReproducaoAbstrata implements ReproducaoInterface {
     }
     @Override
     public void pausar() {
-    System.out.println(nome + " pausada");
+        System.out.println(nome + " pausada");
     }
     @Override
     public void selecionarMusica(String nome) {
