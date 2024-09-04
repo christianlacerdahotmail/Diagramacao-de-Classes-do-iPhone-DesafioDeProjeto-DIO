@@ -1,3 +1,5 @@
+package src.aparelho.navegadorinternet;
+
 public abstract class NavegadorAbstrata implements NavegadorInterface {
 
     @Override

@@ -1,3 +1,5 @@
+package src.aparelho.reprodutormusical;
+
 public abstract class ReproducaoAbstrata implements ReproducaoInterface {
     protected String nome;
     public ReproducaoAbstrata(String nome) {

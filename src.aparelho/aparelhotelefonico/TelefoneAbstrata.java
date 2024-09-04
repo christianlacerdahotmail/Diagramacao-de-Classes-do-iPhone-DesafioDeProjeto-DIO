@@ -1,4 +1,6 @@
-public abstract class TelefoneAbstrata implements TelefoneInterface{
+package src.aparelho.aparelhotelefonico;
+
+public abstract class TelefoneAbstrata implements TelefoneInterface {
 
     @Override
     public void ligar(int numero) {
@@ -9,7 +11,7 @@ public abstract class TelefoneAbstrata implements TelefoneInterface{
         System.out.println("Atendendo a ligação");
     }
     @Override
-    public void inciarCorreioVoz() {
+    public void iniciarCorreioVoz() {
         System.out.println("Correio de voz");
     }
 }

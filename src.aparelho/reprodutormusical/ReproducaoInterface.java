@@ -1,3 +1,5 @@
+package src.aparelho.reprodutormusical;
+
 public interface ReproducaoInterface {
     void tocar();
     void pausar();
